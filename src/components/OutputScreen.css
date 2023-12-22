@@ -1,0 +1,21 @@
+.outputScreen-container{
+   display: flex;
+   flex-direction: column;
+    height: 120px;
+    width: 100%;
+    color: white;
+}
+
+.input-result-output{
+    align-self: flex-end;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px;
+    overflow:-moz-hidden-unscrollable;
+}
+
+.prevOperation-digits{
+    padding: 10px;
+    margin: 0;
+    justify-self: flex-end
+}

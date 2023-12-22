@@ -1,0 +1,65 @@
+
+
+.keyboard-container {
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;
+    margin: 5px 5px 20px 5px;
+    grid-template-areas:
+        "o o o s"
+        "n n n s"
+        "n n n s"
+        "n n n s"
+        "b b b s";  
+}
+
+.otherKeysContainer {
+   text-align: center;
+    grid-area: o;
+}
+
+.numbersKeysContainer {
+    text-align: center;
+    grid-area: n;
+}
+
+.signsKeysContainer {
+    width: 66px;
+    text-align: center;
+    grid-area: s;
+}
+
+.bottomKeysContainer{
+    text-align: center;
+    grid-area: b;
+}
+
+
+.orangeStyle{
+    color: white;
+    background-color: orange
+  }
+  
+.lightGreyStyle{
+    color: black;
+    background-color: rgb(185, 185, 185)
+  }
+  
+.darkGreyStyle{
+    color: white;
+    background-color: rgb(68, 67, 67)
+  }
+
+  .calculator-button{
+    font-size: 30px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 5px;    
+}
+
+.big-button{
+    border-radius: 60px;
+    width: 126px;
+}
