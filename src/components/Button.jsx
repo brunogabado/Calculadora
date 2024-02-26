@@ -1,5 +1,5 @@
 import React from "react";
-import "./KeyBoard.css";
+import "./Keyboard.css";
 
 const Button = ({ keyName, value, onClick, className }) => {
   keyName === "÷" ? (value = "/") : keyName === "×" ? (value = "*") : (value = keyName);
