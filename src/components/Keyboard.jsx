@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Button from "./Button";
-import "./KeyBoard.css";
+import "./Keyboard.css";
+
 
 const KeyBoard = ({ inputDigits, onSubmitResult, handleClear }) => {
   const buttonsOthers = ["C", "(", ")"];
